@@ -2,6 +2,7 @@
                     
 Day-1 ; 3rd Aug ; 01:10 AM
 
+Q1.What is FastAPI and why is it used for model deployment? 
 
                                   # What is an API ?
 
@@ -116,5 +117,36 @@ Problem Statement:
     to prices.
 
     These methods are computationally hard to perform so we use Python to handle these data, clean them , perform appropriate
-    ML requirement analysis and handle the future of that particular data. 
-    This method of predicting 
+    ML requirement analysis and handle the future of that particular data.
+    This method of preparing a Python script to handle data is called a Model.
+    Giving it more data points to improve it's accuracy is called Model training.
+
+
+    This method of predicting and using the model and teaching the machine on a particular problem is called Machine Learning.
+
+    So now you have trained you model and trained it on a particular data and improved it's accuracy.
+    But how can you make this model reply to everyone's query ?
+    Suppose, consider the same example of the plot vs price model, you have trained a model on the previous data, now you want to 
+    make your local community people to get their plot price or they want to check their plot's after some years or before some years.
+
+    The Brute Force approach is to share your python code and make everyone run the script in their local devices and get their respective 
+    query data.
+    yes ofcourse, everyone in the community may not have a device or run a python code or they simple dont know CS. 
+
+    Approach :
+
+    The Most appropriate solution is to develop a web app or a website, in which they can select year  , plot and get their price.
+
+    How to develop this ??
+
+    So you have developed the HTML, CSS and JS for the required project. Now how to access your model and handle request coming from 
+    your website and respond to those requests ?
+
+    We create an API-like fucntion for our model and connect the JS backend with this API-like interfeace with which it can interact to get it's
+    appropriate response and update the response on the web-app.
+    
+    This creation of API-like interface is nothing but usage of FAST-API and the whole process is called Model Deployment.
+
+
+Q2. How do you build, test, and deploy an API for a machine learning model? 
+
