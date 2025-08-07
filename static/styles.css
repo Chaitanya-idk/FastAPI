@@ -1,4 +1,4 @@
-/* Reset some default browser styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -23,9 +23,9 @@ h1 {
 }
 
 h2 {
-    color: #222;                   /* Darker color */
+    color: #222;                  
     font-weight: 500;
-    opacity: 1;                    /* Full opacity */
+    opacity: 1;                  
     margin-bottom: 1.2em;
 }
 
