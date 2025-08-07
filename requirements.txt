@@ -5,3 +5,4 @@ scikit-learn
 joblib
 pathlib
 jinja2
+python-multipart
