@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 import joblib
 
 
-df = pd.read_csv('../dataset/data.csv', encoding='latin1')
+df = pd.read_csv('./data.csv', encoding='latin1')
 df = df.dropna(subset=['text', 'sentiment'])
 vectorizer = TfidfVectorizer(stop_words='english')
 X = vectorizer.fit_transform(df['text'])
